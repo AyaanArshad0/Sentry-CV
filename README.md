@@ -34,4 +34,4 @@ graph LR
     C --> D[Class Filtering]
     D --> E{Point-in-Polygon Check}
     E -->|Inside Zone| F[Trigger Alert Thread]
-    F --> H[Play Sound + Save Image]# Sentry-CV
+    F --> H[Play Sound + Save Image]
